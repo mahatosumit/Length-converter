@@ -188,7 +188,7 @@ body{
 @media only screen and (min-width: 250px) and (max-width: 424px) {
     .tool-container{
         width: 98%;
-        margin: 10px;
+        margin: 10px auto 10px;
         box-sizing: border-box;
         padding: 5px;
         align-items: center;
@@ -222,10 +222,11 @@ body{
     }
 }
 
-@media only screen and (min-width: 425px) and (max-width: 900px) {
+@media only screen and (min-width: 425px) and (max-width: 950px) {
     .tool-container{
         width: 98%;
-        margin: 10px;
+        max-width: 520px;
+        margin: 10px auto 10px;
         box-sizing: border-box;
         padding: 5px;
         align-items: center;
